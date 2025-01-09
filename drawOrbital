@@ -1,6 +1,7 @@
 import SceneKit
-import UIKit
+import SwiftUI
 
+/// Handles orbital transforms
 extension EarthGlobe {
 
     /// Create an orbital track around the globe at the station's precise orbital inclination and location, heading, and altitude
@@ -33,7 +34,9 @@ extension EarthGlobe {
         
         orbitTrackNode.transform = compositeRotationMatrix
     }
-    
+
+    // MARK: - Helper functions
+
     private func createOrbitTrack(for station: StationsAndSatellites) -> SCNNode? {
         let orbitTrack = SCNTorus()
         
