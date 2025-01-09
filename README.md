@@ -11,4 +11,4 @@ In other words, we need to re-orient the ring plane so that:
 
 This is an optimized empirical solution.
 
-	Note: There are infinitely many planes that satisfy “angle(n, Y) = 52° and n·S=0.” We’ll just pick a consistent one so that we get a stable orientation for the ring.
+Note: There are infinitely many planes that satisfy “angle(n, Y) = 52° and n·S=0.” We’ll just pick a consistent one so that we get a stable orientation for the ring.
