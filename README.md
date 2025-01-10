@@ -1,5 +1,5 @@
 # OrbitMath
-Algorithm to correctly draw a real-time orbit at the correct position and inclination as body is rotated through x, y, z coordinates.
+Algorithm to correctly draw a real-time orbit at a satellite's position and inclination on the Earth as the Earth is rotated through x, y, and z coordinates.
 
 Using the ISS as an example, we want:
 	1.	The orbit plane to remain at a 52° inclination relative to Earth’s equatorial plane (i.e., 52° from the Earth’s y-axis in SceneKit).
