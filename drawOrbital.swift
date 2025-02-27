@@ -4,9 +4,9 @@ import SwiftUI
 /// Handles orbital transforms
 extension EarthGlobe {
 
-    /// Create an orbital track around the globe at the station's precise orbital inclination and location, heading, and altitude
+    /// Create an orbital track around the globe at the satellite's precise orbital inclination and location, heading, and altitude
     ///
-    /// This is my empirical algorithm that keeps the orientation of the track at the right angle even though the position of the globe in the scene uses different coordinate system.
+    /// This is my empirical algorithm that keeps the orbital orientation correct no matter how the globe is rotated in all degrees of freedom, even though the position of the globe in the scene uses a different coordinate system.
     /// - Parameters:
     ///   - station: Type of satellite as a SatelliteID type
     ///   - lat: Latitude as a decimal value as a Float
